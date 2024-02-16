@@ -21,9 +21,9 @@ const retryEvery5Seconds = async () => {
         try {
             await getTransactionByHash(txnHash);
         } catch (error) {
-            console.log("An error occurred, retrying in 5 seconds...");
+            console.log("An error occurred, retrying in 10 seconds...");
         }
-        await new Promise(resolve => setTimeout(resolve, 5000));
+        await new Promise(resolve => setTimeout(resolve, 10000));
     }
 }
 
