@@ -1,2 +1,3 @@
 # Starknet-Lava
-# Starknet-Lava
+
+Lava points system
